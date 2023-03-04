@@ -17,6 +17,9 @@
     "require",
     "require context"
   ],
+  "files": [
+    "dist"
+  ],
   "author": "woshiajuana",
   "license": "MIT",
   "bugs": {
