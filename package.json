@@ -23,6 +23,10 @@
     "url": "https://github.com/daysnap/require-context/issues"
   },
   "homepage": "https://github.com/daysnap/require-context#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "node-dir": "^0.1.17"
   },
