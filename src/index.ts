@@ -13,3 +13,5 @@ export function requireContext(dirname: string, regExp: RegExp) {
 }
 
 export type RC = ReturnType<typeof requireContext>
+
+export default requireContext

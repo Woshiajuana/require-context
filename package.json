@@ -1,6 +1,6 @@
 {
   "name": "@daysnap/require-context",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "统一引入文件，类似 wepack 的 require.context 方法",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
