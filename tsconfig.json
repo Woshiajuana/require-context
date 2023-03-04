@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                                  /*为发出的JavaScript设置JavaScript语言版本，并包含兼容的库声明——指定 ECMAScript 目标版本: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', or 'ESNEXT'*/
+    "module": "commonjs",                                /*指定生成的模块代码——指定使用模块: 'commonjs', 'amd', 'system', 'umd' or 'es2015'*/
+    "baseUrl": "./",                                  /*指定用于解析非相对模块名称的基本目录——《后面单独介绍》*/
+    "allowJs": true,                                  /*允许JavaScript文件成为程序的一部分。使用“checkJS”选项从这些文件中获取错误——允许编译JS*/
+    "declaration": true,                              /*生成。d、 ts项目中的TypeScript和JavaScript文件中的文件——如果设为true，编译每个ts文件之后会生成一个js文件和一个声明文件，declaration和allowJs不能同时设为true*/
+    "outDir": "./dist",                                   /*为所有发出的文件指定一个输出文件夹——编译后的文件存到到哪个目录下,默认是每一个ts文件的当前目录,,下面的配置就是把ts编译到build目录下*/
+    "esModuleInterop": true,                             /*发出额外的JavaScript，以简化对导入CommonJS模块的支持。这将启用“allowSyntheticDefaultImports”以实现类型兼容性——通过为导入内容创建命名空间，实现CommonJS和ES模块之间的互操作性*/
+    "forceConsistentCasingInFileNames": true,            /*确保导入中的大小写正确*/
+    "strict": true,                                      /*启用所有严格类型检查选项——严格模式将会打开下面的几个选项*/
+    "skipLibCheck": true                                 /*跳过类型检查全部。d、 ts文件*/
+  },
+  "include": [
+    "src"
+  ]
+}
